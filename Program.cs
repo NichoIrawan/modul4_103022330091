@@ -6,7 +6,6 @@ class Program
     {
         //Kode Produk
         KodeProduk kodeProduk = new KodeProduk();
-        int i = 0;
 
         Console.WriteLine(
             $"Kode laptop = {kodeProduk.GetKodeProduk(KodeProduk.produkElektronik.LAPTOP)} \n" +
